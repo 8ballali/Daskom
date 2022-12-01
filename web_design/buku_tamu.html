@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buku Tamu</title>
+</head>
+
+<body>
+    <h2>Form Buku Tamu</h2>
+    <form action="#" method="post">
+        <p>
+            <label for="nama">Nama Lengkap :</label>
+            <br>
+            <input type="text" name="nama" id="nama" required autocomplete minlength="3" size="40">
+
+        </p>
+        <p>
+            <label for="gender">Jenis Kelamin:</label>
+            <br>
+            <input type="radio" name="gender" value="laki-laki" > Laki-laki
+            <input type="radio" name="gender" value="perempuan"> Perempuan
+
+        </p>
+        <p>
+            <label for="alamat_tinggal">Alamat Tinggal:</label>
+            <br>
+            <input type="text" name="alamat_tinggal" id="alamat_tinggal" required size="40">
+
+        </p>
+        <p>
+            <label for="email">Email   :</label>
+            <br>
+            <input type="email" name="email" id="email=" required size="40">
+    
+        </p>
+        <p>
+            <label for="sosmed">Aktif Pada Sosial Media  :</label>
+            <br>
+            <input type="checkbox" name="sosmed_1" value="facebook"> Facebook
+            <input type="checkbox" name="sosmed_2" value="instagram"> Instagram
+            <input type="checkbox" name="sosmed_3" value="twitter"> Twitter
+            <input type="checkbox" name="sosmed_3" value="path"> Path
+        </p>
+        <p>
+            <label >Mengetahui Web Ini Dari :</label>
+            <br>
+            <select name="source_web">
+                <option selected="select">_= Pilih =_</option>
+                <option value="web_udinus">Web Udinus</option>
+                <option value="surat_kabar">Surat Kabar</option>
+                <option value="teman_kerabat">Teman/Kerabat</option>
+                <option value="browsing_internet">Browsing Internet</option>
+            </select>
+        </p>
+        <p>
+            <label>Isi Komentar:</label><br>
+            <textarea name="komentar" rows="4" cols="39" rows="8"></textarea><br><br>
+
+        </p>
+        <p>
+            <input type="submit" value="Kirim">
+            <input type="button" value="Batal">
+            </p>
+    </form>
+</body>
+
+</html>

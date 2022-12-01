@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Menggunakan HTML Element Tag INPUT</title>
+</head>
+
+<body>
+    <h2>Formulir Pendaftaran Mahasiswa</h2>
+    <form action="#" method="post">
+        <p>
+            <label for="nama">Nama Lengkap :</label>
+            <input type="text" name="nama" id="nama" required autocomplete minlength="3" size="60">
+
+        </p>
+        <p>
+            <label for="email">Email   :</label>
+            <input type="email" name="email" id="email=" required>
+    
+        </p>
+        <p>
+            <label for="alamat">Alamat</label>
+            <input type="text" name="alamat" id="alamat" required>
+
+        </p>
+        <p>
+            <label for="no_telp">No Telp :</label>
+            <input type="tel" name="no_telp" id="no_telp" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{3}" required>
+
+        </p>
+        <p>
+            <label for="gender">Jenis Kelamin:</label>
+            <input type="radio" name="gender" value="laki-laki" checked> Laki-laki
+            <input type="radio" name="gender" value="perempuan"> Perempuan
+
+        </p>
+        <p>
+            <label for="hoby">Hoby  :</label>
+            <input type="checkbox" name="hoby_1" value="membaca"> Membaca
+            <input type="checkbox" name="hoby_2" value="olahraga"> Olahraga
+            <input type="checkbox" name="hoby_3" value="melukis"> Melukis
+        </p>
+        <p>
+            <label >Asal Kota :</label>
+            <select name="kota">
+                <option selected="select">_= Pilih =_</option>
+                <option value="semarang">Semarang</option>
+                <option value="tegal">Tegal</option>
+                <option value="kudus">Kudus</option>
+                <option value="magelang">Magelang</option>
+                <option value="pekalongan">Pekalongan</option>
+            </select>
+        </p>
+        <p>
+            <label for="tanggal">Tanggal Lahir :</label>
+            <input type="date" name="tanggal" id="tanggal" required>
+
+        </p>
+        <p>
+            <label>Pas Foto:</label>
+            <input type="file" name="file" accept="image/png,image/jpg,image/jpeg"><br>
+
+        </p>
+        <p>
+            <label>Isi Komentar:</label><br>
+            <textarea name="komentar" rows="4" cols="50" rows="10"></textarea><br><br>
+
+        </p>
+        <p>
+            <input type="submit" value="Kirim">
+            <input type="reset" value="Reset">
+            </p>
+    </form>
+</body>
+
+</html>
