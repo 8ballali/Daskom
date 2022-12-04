@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Background Color CSS</title>
+    <style>
+        #box {
+            height: 100px;
+            background-color: #20b2aa;
+            opacity: 0.1;
+            /* properti opacity */
+        }
+
+        #box-2 {
+            height: 100px;
+            /* alpha channel pada rgba */
+            background-color: rgba(31, 178, 170, 0.5);
+        }
+
+        #box-3 {
+            height: 100px;
+            /* alpha channel pada hsla */
+            background-color: hsla(177, 70%, 41%, 0.9);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <h1>Kotak 1</h1>
+    </div>
+    <div id="box-2">
+        <h1>Kotak 2</h1>
+    </div>
+    <div id="box-3">
+        <h1>Kotak 3</h1>
+    </div>
+</body>
+
+</html>
